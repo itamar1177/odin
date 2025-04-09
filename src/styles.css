@@ -37,3 +37,20 @@ h1.custom-header {
     background-color: #f1f1f1;
     cursor: pointer;
 }
+
+#add-book-btn {
+    position: fixed; /* Keeps the button in a fixed position relative to the viewport */
+    top: 20px; /* Distance from the top of the viewport */
+    left: 20px; /* Distance from the left of the viewport */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Ensures the button stays above other elements */
+}
+
+#add-book-btn:hover {
+    background-color: #0056b3;
+}
