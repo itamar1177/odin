@@ -1,0 +1,16 @@
+# Ignore node_modules folder if Node.js dependencies are added
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build or dist folders if created
+dist/
+build/
